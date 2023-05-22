@@ -1,0 +1,72 @@
+.frameChild,
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--studio-universal-error-f4596c);
+  width: 96px;
+  height: 15px;
+  overflow: hidden;
+}
+.frameWrapper {
+  top: 38px;
+  left: 48px;
+  background-color: var(--studio-darkmode-bg-main-161c29);
+  width: 236px;
+}
+.helloThere {
+  position: absolute;
+  top: 129px;
+  left: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 163px;
+  height: 32px;
+}
+.frameParent {
+  position: absolute;
+  top: 23px;
+  left: 31px;
+  width: 323px;
+  height: 203px;
+  overflow: hidden;
+}
+.hello {
+  position: absolute;
+  top: 14px;
+  left: 48px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 142px;
+  height: 22px;
+}
+.helloWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #bf2222;
+  position: absolute;
+  top: 418px;
+  left: 175px;
+  border-radius: var(--br-3xs);
+  width: 238px;
+  height: 51px;
+  overflow: hidden;
+}
+.screen {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 971px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: #000;
+  font-family: var(--font-inter);
+}
